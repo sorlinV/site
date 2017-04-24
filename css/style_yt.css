@@ -1,1 +1,28 @@
 /*-----  Media query  -----*/
+body * {
+   display: block;
+   min-width: 20px;
+   min-height: 20px;
+   border: solid 1px white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#logo {
+    height: 10vh;
+    width: 10vw;
+}
+
+nav {
+    display: flex;
+    width: 100%
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}

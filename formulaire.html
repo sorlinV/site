@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style_formulaire.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <form method="GET" action="">
+        <section>
+            <label for="name">Name :</label>
+            <input type="text" name="name" id="name" placeholder="exemple: Gaben">
+        </section>
+        <section>
+            <label for="firstname">First name :</label>
+            <input type="text" name="firstname" id="firstname" placeholder="exemple: Clark">            
+        </section>
+        <section>
+            <label for="firstname">First name :</label>
+            <input type="text" name="firstname" id="firstname" placeholder="exemple: Clark">
+        </section>
+        <section>
+            <label for="birthdate">birthdate :</label>
+            <input type="calendar" name="birthdate" id="birthdate" placeholder="DD/MM/AAAA">
+        </section>
+        <section>
+            <label for="region">Region :</label>
+            <select name="region" id="region">
+                <option value="Auvergne-Rhone-Alpes">Auvergne-Rhône-Alpes</option>
+                <option value="Bourgogne-Franche-Comte">Bourgogne-Franche-Comté</option>
+                <option value="Bretagne">Bretagne</option>
+                <option value="Centre-Val_de_Loire">Centre-Val de Loire</option>
+                <option value="Corse">Corse</option>
+                <option value="Grand Est">Grand Est</option>
+                <option value="Hauts-de-France">Hauts-de-France</option>
+                <option value="Ile-de-France">Île-de-France</option>
+                <option value="Normandie">Normandie</option>
+                <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+                <option value="Occitanie">Occitanie</option>
+                <option value="Pays_de_la_Loire">Pays de la Loire</option>
+                <option value="Provence-Alpes-Côte_d'Azur">Provence-Alpes-Côte d'Azur</option>
+                <option value="regions_ultramarines">Régions ultramarines</option>
+            </select>
+        </section>
+        <section>
+            <label for="mail">Mail :</label>
+            <input type="mail" name="mail" id="mail" placeholder="exemple: gaben.clark@steam.com">
+        </section>
+        <section>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password">
+        </section>
+        <section>
+            <label for="gender">Gender(s) :</label>
+                <ul>
+                    <li><input type="checkbox" name="gender" value="advocate">Advocate</li>
+                    <li><input type="checkbox" name="gender" value="agender">Agender</li>
+                    <li><input type="checkbox" name="gender" value="ally">Ally</li>
+                    <li><input type="checkbox" name="gender" value="androgyny">Androgyny/ous</li>
+                    <li><input type="checkbox" name="gender" value="androsexual">Androsexual / Androphilic</li>
+                    <li><input type="checkbox" name="gender" value="aromantic">Aromantic</li>
+                    <li><input type="checkbox" name="gender" value="asexual">Asexual</li>
+                    <li><input type="checkbox" name="gender" value="bigender">Bigender</li>
+                    <li><input type="checkbox" name="gender" value="bicurious">Bicurious</li>
+                    <li><input type="checkbox" name="gender" value="biological">Biological sex</li>
+                    <li><input type="checkbox" name="gender" value="biphobia">Biphobia</li>
+                    <li>
+                        <label for="autre_gender">Autre :</label>
+                        <input type="text" name="autre_gender" id="autre_gender" placeholder="Autre">
+                    </li>
+                </ul>
+        </section>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
