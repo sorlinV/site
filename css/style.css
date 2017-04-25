@@ -20,12 +20,12 @@ body {
     padding: 0px;
     background-image:radial-gradient(transparent, black), url(/img/delhi.jpg);
     background-attachment: fixed;
+    background-size: 100%;
 }
 
 #poney {
     display: flex;
     align-content: center;
-    align-self: center;
     height: 85vh;
     width: 90vw;
 }
@@ -46,13 +46,13 @@ input {
     min-height: 50px;
     background: orange;
     font: futura;
-    font-size: 150%;
+    font-size: 1em;
     border-radius: 50px;
 }
 
 input:hover {
     background: blue;
-    font-size: 200%;
+    font-size: 1.5em;
 }
 /*====================*/
 
@@ -82,4 +82,8 @@ p {
 h2 {
     color: green;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+    
 }
